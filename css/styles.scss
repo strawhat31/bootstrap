@@ -66,10 +66,29 @@ body{
             min-height: 300px;
         }
     }
+    
+    .carousel-caption {
+        top: 50%;
+        transform: translateY(-50%);
+    }
 }
 
 #carouselButton {
     right:0px;
     position: absolute;
     bottom: 0px;
+}
+
+.modal {
+    .modal-header {
+        background-color: $background-dark;
+        color: floralwhite;
+    }
+    .modal-body {
+        background: $background-pale;
+    }
+}
+
+.close {
+    color: floralwhite;
 }
